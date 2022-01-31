@@ -1,0 +1,51 @@
+.factura {
+    * {
+      font-size: 0.875rem;
+    }
+    p {
+      margin: 5px;
+    }
+    .content-factura {
+      max-width: 900px;
+      margin: auto;
+      border: solid 1px #000;
+      padding: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .text-bold {
+      font-weight: bold;
+    }
+    .list tr td {
+      padding: 5px 0;
+    }
+    .head-table th {
+      border-top: 1px solid #000;
+      font-weight: bold;
+    }
+    .body-table td {
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+    }
+    .body-table td:first-child,
+    .head-table th:first-child {
+      border-left: 1px solid #000;
+    }
+    .body-table td:last-child,
+    .head-table th:last-child {
+      border-right: 1px solid #000;
+    }
+    .head-table th,
+    .body-table td {
+      padding: 5px;
+    }
+    .noborder {
+      border: 0 !important;
+    }
+    .unosolo {
+      border: solid 1px #000;
+      padding: 5px;
+    }
+  }
